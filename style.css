@@ -47,16 +47,21 @@ a {
   width: 700px;
   margin: 50px auto;
 }
-.link-medium {
-
-  color: #636363;
-  font-weight: lighter;
-  font-size: 25px;
-  font-style: italic;
-  transition: 0.5s;
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
 }
-.link-medium:hover {
-  background-image: linear-gradient(to bottom, rgb(248, 248, 248), rgb(0, 0, 0));
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: black;
 }
 
 /* Media queries */
