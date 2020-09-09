@@ -5,7 +5,7 @@ body {
   font-weight: lighter;
   font-family: 'Lora', 'Times New Roman', Times, serif;
   margin: 0;
-  background-color: black;
+  background-color: #1a1c20;
   transition: 0.5s;
   text-align: center;
 
@@ -36,15 +36,12 @@ a {
   font-size: 38px;
   font-style: italic;
   font-weight: lighter;
-  opacity: 2;
-
 
 }
 .banner p {
   font-size: 30px;
   font-style: italic;
   font-weight: lighter;
-  opacity: 1.0;
 }
 .container {
   width: 700px;
