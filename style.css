@@ -1,0 +1,89 @@
+body {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', 'Times New Roman', Times, serif;
+  margin: 0;
+  background-color: black;
+  transition: 0.5s;
+  text-align: center;
+
+}
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+h2 {
+  color: #fff6f6;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  color: #4352A1;
+}
+
+/* Custom design */
+.banner {
+  background-image: url("https://source.unsplash.com/1600x900/?code");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+  opacity: 2;
+
+}
+.banner h1 {
+  font-size: 38px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 2;
+
+
+}
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 1.0;
+}
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+.link-medium {
+
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+  transition: 0.5s;
+}
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgb(248, 248, 248), rgb(0, 0, 0));
+}
+
+/* Media queries */
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
